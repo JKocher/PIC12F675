@@ -1,0 +1,338 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+end_init CODE 0 0 0 1 2 1
+config CONFIG 4 2007 2007 1 2 1
+$dist/default/production\TikTok_Sequencer_Demo.X.production.o
+cinit CODE 0 3FD 3FD 2 2 1
+text1 CODE 0 2CD 2CD 1D 2 1
+text2 CODE 0 2B9 2B9 14 2 1
+text3 CODE 0 2EA 2EA 47 2 1
+text4 CODE 0 331 331 65 2 1
+maintext CODE 0 396 396 67 2 1
+cstackBANK0 BANK0 1 20 20 1F 1 1
+config CONFIG 4 2007 2007 1 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 3F-5D 1
+BANK0 3F-5D 1
+CONST 1-2B8 2
+ENTRY 1-2B8 2
+IDLOC 2000-2003 2
+CODE 1-2B8 2
+SFR0 0-1F 1
+SFR1 80-DD 1
+EEDATA 2100-217F 2
+STRCODE 1-2B8 2
+STRING 1-2B8 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\TikTok_Sequencer_Demo.X.production.o
+3FD cinit CODE >259:C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_1.s
+3FD cinit CODE >262:C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_1.s
+3FD cinit CODE >268:C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_1.s
+3FD cinit CODE >270:C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_1.s
+3FE cinit CODE >271:C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_1.s
+331 text4 CODE >5:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+331 text4 CODE >13:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+33A text4 CODE >14:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+33E text4 CODE >14:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+342 text4 CODE >15:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+344 text4 CODE >16:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+345 text4 CODE >17:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+347 text4 CODE >17:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+34E text4 CODE >18:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+350 text4 CODE >16:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+354 text4 CODE >21:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+356 text4 CODE >21:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+35D text4 CODE >22:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+35F text4 CODE >22:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+363 text4 CODE >22:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+367 text4 CODE >22:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+36B text4 CODE >22:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+36F text4 CODE >23:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+372 text4 CODE >23:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+376 text4 CODE >23:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+37A text4 CODE >23:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+37D text4 CODE >24:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+37E text4 CODE >26:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+37F text4 CODE >26:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+385 text4 CODE >26:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+387 text4 CODE >27:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+38D text4 CODE >29:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+395 text4 CODE >30:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+2EA text3 CODE >15:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2EA text3 CODE >119:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2F3 text3 CODE >121:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2F7 text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2FA text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2FB text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2FD text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+301 text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+302 text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+304 text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+308 text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+309 text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+30B text3 CODE >122:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+30E text3 CODE >123:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+310 text3 CODE >123:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+317 text3 CODE >124:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+318 text3 CODE >124:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+31E text3 CODE >124:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+320 text3 CODE >125:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+324 text3 CODE >125:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+328 text3 CODE >128:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+330 text3 CODE >129:C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+2B9 text2 CODE >30:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2B9 text2 CODE >31:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2BC text2 CODE >32:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2C0 text2 CODE >33:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2C2 text2 CODE >34:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2C6 text2 CODE >35:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2CC text2 CODE >36:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2CD text1 CODE >23:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2CD text1 CODE >24:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2D1 text1 CODE >25:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2D8 text1 CODE >26:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2DB text1 CODE >26:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2E1 text1 CODE >26:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2E5 text1 CODE >26:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+2E9 text1 CODE >27:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+396 maintext CODE >38:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+396 maintext CODE >41:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+399 maintext CODE >42:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+39B maintext CODE >43:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+39E maintext CODE >44:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3A0 maintext CODE >45:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3A2 maintext CODE >48:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3A4 maintext CODE >51:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3AA maintext CODE >52:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3D0 maintext CODE >52:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3D4 maintext CODE >55:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3D8 maintext CODE >56:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3DD maintext CODE >59:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3E2 maintext CODE >60:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3E7 maintext CODE >63:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3EC maintext CODE >64:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3F1 maintext CODE >67:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+3F6 maintext CODE >68:C:\Users\koche\MPLABXProjects\TikTok_Sequencer_Demo.X\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 0 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hspace_0 7FE 0 ABS 0 - -
+__Hspace_1 7FE 0 ABS 0 - -
+__Hspace_2 7FE 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__end_of_readADC 59A 0 CODE 0 text2 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+__Hstrings 7FE 0 ABS 0 strings -
+_GPIO 5 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___sp 7FE 0 STACK 2 stack C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+_main 72C 0 CODE 0 maintext dist/default/production\TikTok_Sequencer_Demo.X.production.o
+btemp 5E 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___stack_hi 7FE 0 STACK 2 stack C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+___stack_lo 7FE 0 STACK 2 stack C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+start 0 0 CODE 0 init C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+?___lmul 20 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_variable_delay 59A 0 CODE 0 text1 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+variable_delay@i 23 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+wtemp0 5E 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__Hclrtext 7FE 0 ABS 0 clrtext -
+_ADCON0 1F 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_ADRESH 1E 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_ADRESL 9E 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__end_of___lmul 662 0 CODE 0 text3 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Lmaintext 7FE 0 ABS 0 maintext -
+__end_of_variable_delay 5D4 0 CODE 0 text1 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__end_of___lldiv 72C 0 CODE 0 text4 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+___lldiv@counter 3A 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+start_initialization 7FA 0 CODE 0 cinit dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___lldiv@dividend 31 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+variable_delay@ms 20 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_TRISIO 85 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_readADC 572 0 CODE 0 text2 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___int_sp 7FE 0 STACK 2 stack C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+__Hbank0 7FE 0 ABS 0 bank0 -
+__Hbank1 7FE 0 BANK1 1 bank1 -
+__Hcinit 7FE 0 CODE 0 cinit -
+__Hstack 7FE 0 STACK 2 stack -
+__Hmaintext 7FE 0 ABS 0 maintext -
+__Hcommon 7FE 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+_GPIObits 5 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Lbank0 7FE 0 ABS 0 bank0 -
+__Lbank1 7FE 0 BANK1 1 bank1 -
+__Lcinit 7FA 0 CODE 0 cinit -
+__Lstack 7FE 0 STACK 2 stack -
+__Habs1 7FE 0 ABS 0 abs1 -
+__Hcode 7FE 0 ABS 0 code -
+__Hheap 7FE 0 HEAP 7 heap -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 7FE 0 ABS 0 sfr0 -
+__Hsfr1 7FE 0 ABS 0 sfr1 -
+__Hsivt 0 0 CODE 0 sivt -
+__Htext 7FE 0 ABS 0 text -
+__Labs1 7FE 0 ABS 0 abs1 -
+__Lcode 7FE 0 ABS 0 code -
+__Lheap 7FE 0 HEAP 7 heap -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 7FE 0 ABS 0 sfr0 -
+__Lsfr1 7FE 0 ABS 0 sfr1 -
+__Lsivt 0 0 CODE 0 sivt -
+__Ltext 7FE 0 ABS 0 text -
+___lmul 5D4 0 CODE 0 text3 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__LcstackBANK0 7FE 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 7FE 0 ABS 0 cstackCOMMON -
+__S0 3FF 0 ABS 0 - -
+__S1 3F 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+?_readADC 20 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hosccal 7FE 0 CODE 0 osccal -
+__Lintentry 0 0 CODE 0 intentry -
+___lldiv@divisor 2D 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+ltemp0a 60 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+main@adc_val 3B 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___lldiv 662 0 CODE 0 text4 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__pmaintext 72C 0 CODE 0 maintext dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___lmul@multiplier 20 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Lcommon 7FE 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+___osccal_val 7FE 0 CODE 0 osccal C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+_ADCON0bits 1F 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 7FE 0 ABS 0 cstackBANK0 -
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 7FE 0 ABS 0 cstackCOMMON -
+end_of_initialization 7FA 0 CODE 0 cinit dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hintentry 0 0 CODE 0 intentry -
+__Losccal 7FE 0 CODE 0 osccal -
+__Lstrings 7FE 0 ABS 0 strings -
+?___lldiv 2D 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__ptext1 59A 0 CODE 0 text1 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__ptext2 572 0 CODE 0 text2 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__ptext3 5D4 0 CODE 0 text3 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__ptext4 662 0 CODE 0 text4 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+___heap_hi 0 0 ABS 0 - C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+___heap_lo 0 0 ABS 0 - C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+__end_of__initialization 7FA 0 CODE 0 cinit dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__Lclrtext 7FE 0 ABS 0 clrtext -
+___lmul@product 29 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___lmul@multiplicand 24 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___lldiv@quotient 36 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__pcstackCOMMON 0 0 COMMON 1 cstackCOMMON dist/default/production\TikTok_Sequencer_Demo.X.production.o
+wtemp0a 5F 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hend_init 2 0 CODE 0 end_init -
+__end_of_main 7FA 0 CODE 0 maintext dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_ANSEL 9F 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_CMCON 19 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+_VRCON 99 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+__Hram 7FE 0 ABS 0 ram -
+__Lram 7FE 0 ABS 0 ram -
+__initialization 7FA 0 CODE 0 cinit dist/default/production\TikTok_Sequencer_Demo.X.production.o
+btemp0 5E 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+btemp1 5F 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+ttemp0a 5F 0 ABS 0 - dist/default/production\TikTok_Sequencer_Demo.X.production.o
+main@delay_ms 3D 0 BANK0 1 cstackBANK0 dist/default/production\TikTok_Sequencer_Demo.X.production.o
+___int_stack_hi 7FE 0 STACK 2 stack C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+___int_stack_lo 7FE 0 STACK 2 stack C:\Users\koche\AppData\Local\Temp\xcAs14b0.0\driver_tmp_12.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 5E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 3FD 7FA 2 2
+text1 0 2CD 59A 1D 2
+text2 0 2B9 572 14 2
+text3 0 2EA 5D4 47 2
+text4 0 331 662 65 2
+maintext 0 396 72C 67 2
+cstackBANK0 1 20 20 1F 1
+reset_vec 0 0 0 1 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
